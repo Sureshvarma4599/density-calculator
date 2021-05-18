@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  font-family:'KoHo','Times New Roman', Times, serif;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&family=Montserrat&display=swap');
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  width:80%;
+  height:30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  background: rgba( 52, 143, 249, 0.85 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+select{
+  width:80%;
+  height:30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.cal{
+  align-items: center;
+  
+}
+h2{
+  font-size: 2vmax;
+  font-family: 'Montserrat','Times New Roman', Times, serif;
+}
+h1{
+  font-size: 4vmax;
+}
+button{
+  width:100px;
+  height: 40px;
+  margin: auto;
+  background: rgba( 233, 227, 101, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
