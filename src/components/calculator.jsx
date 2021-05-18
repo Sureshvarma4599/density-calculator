@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../App.css'
-class InlineStyle extends Component {
+class Cal extends Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -13,7 +13,7 @@ class InlineStyle extends Component {
       this.handleDropdownChange = this.handleDropdownChange.bind(this);
       
     }
-  
+    
     handleDropdownChange(e) {
       this.setState({ selectValue: e.target.value });
     }
@@ -56,4 +56,4 @@ class InlineStyle extends Component {
       );
     }
   }
-  export default InlineStyle;
+  export default Cal;
