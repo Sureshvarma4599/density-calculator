@@ -62,3 +62,17 @@ backdrop-filter: blur( 4.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+#viewer {
+  width: 640px;
+  height: 480px;
+  position: relative;
+  outline: 1px solid black;
+  margin:auto;
+}
+#canvas {
+  width: 640px;
+  height: 480px;
+  position: relative;
+  margin:auto;
+  background-color: aqua;
+}
