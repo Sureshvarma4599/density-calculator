@@ -4,7 +4,7 @@ export default class Toolbar extends Component {
     render() {
         return (
             <div>
-                <Button name="home" buttonCallback={this.props.hwv.view.resetCamera(750)}/>
+                <Button name="reset" buttonCallback={()=>this.props.hwv.view.resetCamera(750)}/>
             </div>
         )
     }

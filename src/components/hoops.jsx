@@ -22,7 +22,7 @@ export default class Hoops extends Component {
         if(this.state.hwvInstantiated){
             viewerDependentTools =
             <div id="vdt">
-                   <Toolbar hwv = {this._hwv}/>
+                   <Toolbar hwv={this._hwv}/>
             </div>
         }
         return (
